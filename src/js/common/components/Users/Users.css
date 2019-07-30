@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  padding: 0 11.5px 0 11.5px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+}
+.userIcon {
+  margin-right: 12px;
+}
+.title {
+  color: #22242A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.selectedCount {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #808080;
+  margin-right: 23.5px;
+}
+table {
+  margin-top: 17px;
+}
+tr {
+  height: 55px;
+}
+td, th {
+  border-top: 2px solid #E2E2E2;
+}
+th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+}
+th:first-child {
+  text-align: center;
+  max-width: 56px;
+}
+td {
+  color: #39628D;
+  font-size: 14px;
+  line-height: 18px;
+}
+td:hover {
+  font-weight: 600;
+}
+tbody tr {
+  cursor: pointer;
+}
+tbody tr td:first-child {
+  text-align: center;
+}
+tbody tr:hover {
+  background-color: rgba(57,98,141,0.05);
+}
+tbody tr:last-child td {
+  border-bottom: 2px solid #E2E2E2;
+}
+tbody tr th:last-child {
+  text-align: center;
+}

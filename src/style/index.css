@@ -1,0 +1,10 @@
+@import "configs/color";
+@import "configs/font-faces";
+
+body {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 18px;
+  color: #39628D;
+  background-color: #F8F9FB;
+}
